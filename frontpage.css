@@ -1,0 +1,346 @@
+/* ---Structure */
+/* Head Structure */
+
+@media only screen and (min-width: 768px) {
+
+/*I want SLIDESHOW here img1, img2, etc..... */
+.hello {
+background:
+linear-gradient(
+      rgba(255, 102, 39, 0.0),
+      rgba(172, 13, 43, 0.0)
+    ),
+url(img/BannerC.jpeg);
+background-size: cover;
+width: 100%;
+
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+
+overflow-x: hidden;
+
+/* grey color when loading img */
+background-color: white;
+
+/*
+border: solid red;
+*/
+
+
+
+ }
+/*test*/
+}
+
+
+
+body {
+
+
+    background-repeat: no-repeat;
+    background:
+    linear-gradient(
+          rgba(255, 188, 102, 0.0),
+          rgba(255, 233, 129, 0.0)
+        ),
+    url(img/HD_2_members.jpg);
+
+    background-size: cover;
+    width: 100%;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    overflow-x: hidden;
+
+
+/*when loading the pic in mobile ex */
+background-color: #546E7A;
+}
+
+/*Tables*/
+
+.Table {
+  display: table;
+  text-align: center;
+
+  border: solid red;
+}
+
+.Row {
+  display: table-row;
+
+}
+.Cell {
+  display: table-cell;
+
+/*
+  border: solid yellow;
+  */
+}
+
+/* Structures ***************************************************************/
+
+.normalContent {
+	width:100%;
+	height:500px;
+
+
+	background: #e6e6e6;
+
+
+	margin: 0px auto;
+	margin-top: 1000px;
+
+	padding: 20px;
+  padding-top: 35px;
+  padding-left: 35%;
+  padding-right: 35%;
+
+overflow: hidden;
+text-align:left;
+
+
+}
+
+
+
+/* Finger Structure */
+#iconsatbottom {
+
+
+padding-left: 15%;
+padding-right: 15%;
+
+
+/*fixa responsiv */
+margin-top: 25%;
+padding-top: 75%;
+
+}
+
+.iconsatbotton-Cell {
+display: table-cell;
+
+padding-top: 2em;
+
+/*
+border: solid yellow;
+*/
+}
+
+#contentNearTheBottom2 {
+	background: #e1e1e1;
+	width: 100%;
+	height: 3em;
+	margin-top: 0%;
+  margin-bottom: 0px;
+	padding: 10px;
+
+
+}
+
+/* ---Links */
+
+
+
+/* ---Lists, Images, Slideshow */
+
+
+
+/* Test*/
+
+/**/
+
+
+/* ---Typography */
+* { margin: 0; padding: 0; }
+
+#colorIcons {
+    /* color: #e6e6e6; */
+    color: #FFE082;
+  /*   text-shadow: 2px 20px 100px grey; */ /* höger, nedåt, opacity */
+
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/Newsense.otf);
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url(fonts/AvenirLTStd-Medium-1.otf);
+}
+
+#colorIcons:hover {
+  color: grey;
+}
+#h1 {
+  font-size: 5.9vw;
+
+    color:#FFECB3; font-family: myFirstFont;
+   letter-spacing: -1px; line-height: 1; text-align: center;
+}
+
+h1 {
+  font-size: 2.9vw;
+
+    color: #e6e6e6;
+   letter-spacing: -1px; line-height: 1; text-align: center;
+}
+
+h2 {
+  font-size: 3.0vh;
+  text-align: center;
+  padding-bottom: 10px;
+}
+div {
+  color: #666; font-family: 'PT Sans', sans-serif;
+  font-size: 2vmin;
+}
+p {
+  font-size: 1.5vmin;
+}
+
+/*codrops */ /* funkar inte ?? hur? */
+.hi-icon-effect-6 .hi-icon {
+	box-shadow: 0 0 0 4px rgba(255,255,255,1);
+	transition: background 0.2s, color 0.2s;
+}
+
+.no-touch .hi-icon-effect-6 .hi-icon:hover {
+	background: rgba(255,255,255,1);
+	color: #64bb5d;
+}
+@keyframes spinAround {
+	from {
+		transform: rotate(0deg)
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.no-touch .hi-icon-effect-6 .hi-icon:hover:before {
+	animation: spinAround 2s linear infinite;
+}
+
+.testlol {
+  border: 5px solid yellow;
+}
+.hi-icon a {
+	display:block;
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0px;
+	z-index:100
+}
+
+
+/* YEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEER
+h1 { color: #ff4411; font-size: 48px; font-family: 'Signika', sans-serif; padding-bottom: 10px; }
+
+
+p { font-family: 'Inder', sans-serif; line-height: 28px; margin-bottom: 15px; color: #666; }
+
+
+a { color: #ff4411; transition: .5s; -moz-transition: .5s; -webkit-transition: .5s; -o-transition: .5s; }
+
+
+a:hover { color: #a03c21 }
+
+
+.date { float: left }
+
+
+.author { float: right }
+
+
+.entry-content { border-bottom: 3px solid #666; padding: 0 0 15px 0; margin-bottom: 8px; }
+
+
+.meta-info { padding: 5px; overflow: hidden; }
+
+
+.meta-info p { font-family: 'Fenix', serif; font-style: italic; color: #666; font-size: 16px; }
+*/
+
+/* ---Test Exprimential */
+/* Responsive table for iconsatbottom */
+/*
+Generic Styling, for Desktops/Laptops
+*/
+table {
+  width: 40%;
+  border-collapse: collapse;
+  position: absolute;
+  bottom: 10%;
+
+  margin-left: 30%;
+  margin-right: 30%;
+
+
+}
+/* Zebra striping */
+tr:nth-of-type(odd) {
+
+  background-color:rgba(255,0,0,0.0);
+  /* opacity 0.0 making background behind the icons invisible*/
+}
+
+
+td, th {
+  padding: 6px;
+  text-align:center;
+
+/*
+border: 4px solid purple;
+*/
+}
+tr {
+/*
+  border: 5px solid yellow;
+  */
+position: relative;
+right: 75%;
+}
+
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+	td {
+		/* Behave  like a "row" */
+    /*
+		border-bottom: 1px solid #eee;
+    */
+		position: relative;
+		padding-left: none;
+
+border: solid blue;
+/*
+    border: solid blue;
+    */
+	}
+	td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+
+
+
+	}
+}
