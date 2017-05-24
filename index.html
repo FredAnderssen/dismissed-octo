@@ -21,11 +21,11 @@
 				<h1>DISMISSED</h1>
 				<nav>
 					<ul>
-						<li><a href="#intro">Intro</a></li>
-						<li><a href="#one">Manifest</a></li>
-						<li><a href="#two">Who I Am</a></li>
-						<li><a href="#work">My Work</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="#intro">Home</a></li>
+						<li><a href="#one">Statement</a></li>
+						<li><a href="#two">Who we are</a></li>
+						<li><a href="#work">Song Lyrics</a></li>
+
 					</ul>
 				</nav>
 			</header>
@@ -66,7 +66,7 @@
 			<section id="one" class="main style2 right dark fullscreen">
 				<div class="content box style2">
 					<header>
-						<h2>Manifest</h2>
+						<h2>Statement</h2>
 					</header>
 					<p>This is not a silent protest, the screams of the glitterarmy is louder than the bangs of your bombs. <br />
 		  This is the sound of a thousand angry voices compressed into nine songs. <br />
@@ -82,7 +82,7 @@
 			<section id="two" class="main style2 left dark fullscreen">
 				<div class="content box style2">
 					<header>
-						<h2>Who I Am</h2>
+						<h2>Who we are</h2>
 					</header>
 					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
 					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
@@ -95,10 +95,68 @@
 			<section id="work" class="main style3 primary">
 				<div class="content">
 					<header>
-						<h2>Manifest frågetecken?</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-						Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
-						arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
+						<h2>Song Lyrics</h2>
+
+
+
+						<p><a href="HeartsAlign.html" >Hearts Align</a><br> dolor sit amet <br> et sapien sed <br>elementum egestas <br> dolore condimentum<br>
+						Fusce<br> blandit ultrices <br> sapien, in accumsan orci rhoncus <br> Sed sodales <br> venenatis
+						 <br> magna vitae.</p>
+
+<!-- Lyrics test -->
+
+<h2>Modal Example</h2>
+
+<!-- Trigger/Open The Modal -->
+<p id="myBtn">Open Modal</p>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..
+    lal lsdl asld lasl dll asl dlasl dl</p>
+  </div>
+
+</div>
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+	modal.style.display = "none";
+}
+}
+</script>
+
+<!----------------------- -->
+
+
+
+
 					</header>
 
 
@@ -124,7 +182,7 @@
 
 				<!-- Menu -->
 					<ul class="menu">
-						<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Dismissed</li><li>Design: Feddán</li>
 					</ul>
 
 			</footer>
@@ -138,6 +196,8 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+
+
 
 	</body>
 </html>
