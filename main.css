@@ -476,6 +476,9 @@
 
 
 /* Type */
+.atest {
+	color: #39454b;
+}
 
 	body, input, textarea, select {
 		font-family: "Source Sans Pro", "sans-serif";
@@ -1080,8 +1083,9 @@ td, th {
 
 	padding: 5px;
 
+/*
 	border: solid blue;
-
+*/
 }
 
 @media
@@ -1097,9 +1101,9 @@ only screen and (max-width: 760px),
 
 
 	tr {
-
+/*
 		border: 1px solid red;
-
+*/
 margin-top: -12.5%;
 	}
 
@@ -1107,8 +1111,9 @@ margin-top: -12.5%;
 		/* Behave  like a "row" */
 		border: none;
 
+/*
 border-bottom: solid yellow;
-
+*/
 		position: relative;
 		padding-right: 100%;
 	}
@@ -1479,9 +1484,9 @@ font-family: Newsense;
 
 				font-family: Newsense;
 
-
+/*
 				border: solid purple;
-
+*/
 				}
 
 
