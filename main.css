@@ -476,9 +476,14 @@
 
 
 /* Type */
-.atest {
+.acolor {
 	color: #39454b;
 }
+
+#colorIcons:hover {
+	color: grey;
+}
+
 
 	body, input, textarea, select {
 		font-family: "Source Sans Pro", "sans-serif";
